@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link ref="stylesheets" href="feee.css">
+    
+    <title>Registration form</title>
+     <style>
+    .form_container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    form{
+      border:1px solid black;
+      padding: 2px;
+      border-radius: 10px;
+    }
+  
+    </style>
+</head>
+<body>   
+  
+<div class="form_container">
+  <form action="submit">
+    <label>first name</label> 
+    <input type="text" name="first name">
+    <br>
+    <br>
+    <label>last name</label>
+    <input type="text" name="last name">
+    <br>
+    <br>
+
+    <label>DOB</label>
+    <input type="text" name="email">
+    <br>
+    <br>
+
+    <label>password</label>
+    <input type="text" name="password">
+    <br>
+    <br>
+
+    <label>gender</label>
+    <input type="radio" name="male">male
+    <input type="radio" name="female">female
+    <br>
+    <br>
+    <label>year of passing 10th</label>
+    <input type="text" name="year">
+    <br>
+    <br>
+    <label>Category:</label>
+    <input type="radio" name="SC">SC
+    <input type="radio" name="ST">ST
+    <input type="radio" name="General">General
+    <input type="radio" name="obc">OBC
+    <br>
+    <br>
+    <label>colour</label>
+    <input type="text" name="colour">
+    <br>
+    <br>
+    <label> Qualification</label>
+    <input type="text" name="qualification">
+    <br>
+    <br>
+   
+    <label ="slider">Range </label>
+    <input type="range" name="slider" min="0" max="10">
+    <button>SUBMIT</button>
+
+
+    
+  </form>
+  </div>
+</body>
+</html>
+ 
+
+
