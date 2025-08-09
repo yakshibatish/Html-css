@@ -1,0 +1,39 @@
+<div itemid=Header>
+<h1>My WEBSITE</h1>
+<nav>
+<ul>
+<li><a href=index.html>Home</a>
+<li><a href="ABOUT.HTML">about</a>
+<li><a HREF="contact.html">CONTACT</a>
+</ul>
+</nav>
+</div>
+
+<div id="Main">
+<img src=logo.png>
+<p>Welcome to my website. here you can find various resources. </p>
+<p> please contact us for more INFO</p>
+<h2>Our Services</h2>
+<ol>
+<li>Web Design</li>
+<li>Seo Optimization</li>
+<li>Content Creation</li>
+</ol>
+
+<div>
+<h3>Testimonials</h3>
+<blockquote>This site is <strong>awesome</strong>!
+<footer>- Happy Client</footer>
+</blockquote>
+</div>
+
+<table border=1>
+<tr><td>Name</td><td>Email</td><td>Message</td>
+<tr><td>John Doe</td><td>john@example.com</td><td>Hello!</td>
+<tr><td>Jane Doe</td><td>jane@example.com</td><td>Great work!</td>
+</table>
+
+<footer>
+<p>Copyright 2025 myWebsite.com</p>
+</footer>
+</div>
