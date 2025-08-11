@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @media(min-width:768px){
+        }
+        .container{
+            display:grid;
+            grid-template-columns:auto auto auto;
+            border:10px lightslategray;
+            background-color:lightpink;
+            padding:20px;
+            row-gap: 20px;
+    
+        }
+        .container > div {
+            background-color:lightcyan;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid gray;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="row-gap:10px;">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+</html>
